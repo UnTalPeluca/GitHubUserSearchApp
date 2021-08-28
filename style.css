@@ -276,10 +276,14 @@ body{
     .container{
         max-width: 730px;
     }
+    .header{
+        padding-top: 140px
+    }
     .profile-content{
         max-width: 480px;
         margin-left: 200px;
-        max-height: 444px;
+        min-height: 400px;
+        max-height: 400px;
     }
     .profile-header{
         position:relative;
