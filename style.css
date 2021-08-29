@@ -266,9 +266,6 @@ body{
         width: 26px;
         padding: 0px 22px 0px 32px;
     }
-    .searchbar-container label{
-        height: 70px;
-    }
     .btn-search{
         margin-right: 10px;
         min-width: 106px;
@@ -310,5 +307,8 @@ body{
     }
     #no-results{
         left: 500px;
+    }
+    .searchbar-container{
+        height: 70px;
     }
 }
