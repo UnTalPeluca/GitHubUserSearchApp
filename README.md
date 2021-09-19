@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/github-user-search-app-UnJYWy738D)
-- Live Site URL: [GitHub Page](https://untalpeluca.github.io/GitHub-User-Search-App/)
+- Live Site URL: [GitHub Page](https://untalpeluca.github.io/GitHubUserSearchApp/)
 
 ## My process
 
