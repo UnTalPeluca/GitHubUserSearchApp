@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,73 +12,73 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <div class="container">
-      <div class="header">
-        <h1 class="title">devfinder</h1>
-        <div id="btn-mode">
-          <p id="mode-text">DARK</p>
-          <div class="icon-container"><img id="mode-icon" src="./assets/icon-moon.svg" alt=""></div>
-        </div>
+  <div class="container">
+    <header class="header">
+      <h1 class="title">devfinder</h1>
+      <div id="btn-mode">
+        <p id="mode-text">DARK</p>
+        <div class="icon-container"><img id="mode-icon" src="./assets/icon-moon.svg" alt=""></div>
       </div>
-      <div class="searchbar-container active">
-        <label for="input">
+    </header>
+    <main>
+      <div id="app">
+        <div class="searchbar-container active">
           <input type="search" name="user-input" id="input" placeholder="Search Github username...">
-        </label>
-        <button class="btn-search" id="submit">Search</button>
-        <div class="error">
-          <p id="no-results">No results</p>
+          <div class="error">
+            <p id="no-results">No results</p>
+          </div>
+          <button class="btn-search" id="submit">Search</button>
         </div>
-      </div>
-      <div class="profile-container">
-        <div class="profile-content">
-          <div class="profile-header">
-            <img id="avatar" src="./assets/eaea.png" alt="">
-            <div class="profile-info-wrapper">
-              <div class="profile-name">
-                <h2 id="name"></h2>
-                <p id="user"></p>
+        <div class="profile-container">
+          <div class="profile-content">
+            <div class="profile-header">
+              <img id="avatar" src="./assets/eaea.png" alt="">
+              <div class="profile-info-wrapper">
+                <div class="profile-name">
+                  <h2 id="name"></h2>
+                  <p id="user"></p>
+                </div>
+                <p id="date"></p>
               </div>
-              <p id="date"></p>
             </div>
-          </div>
-          <p id="bio"></p>
-          <div class="profile-stats-wrapper">
-            <div class="profile-stat">
-              <p class="stat-title">Repos</p>
-              <p id="repos"class="stat-value"></p>
+            <p id="bio"></p>
+            <div class="profile-stats-wrapper">
+              <div class="profile-stat">
+                <p class="stat-title">Repos</p>
+                <p id="repos"class="stat-value"></p>
+              </div>
+              <div class="profile-stat">
+                <p class="stat-title">Followers</p>
+                <p id="followers" class="stat-value"></p>
+              </div>
+              <div class="profile-stat">
+                <p class="stat-title">Following</p>
+                <p id="following" class="stat-value"></p>
+              </div>
             </div>
-            <div class="profile-stat">
-              <p class="stat-title">Followers</p>
-              <p id="followers" class="stat-value"></p>
-            </div>
-            <div class="profile-stat">
-              <p class="stat-title">Following</p>
-              <p id="following" class="stat-value"></p>
-            </div>
-          </div>
-          <div class="profile-bottom-wrapper">
-            <div class="profile-info">
-              <div class="bottom-icons"><img src="./assets/icon-location.svg" alt=""></div>
-              <p id="location"></p>
-            </div>
-            <div class="profile-info">
-              <div class="bottom-icons"><img src="./assets/icon-website.svg" alt=""></div>
-              <p id="page"></p>
-            </div>
-            <div class="profile-info">
-              <div class="bottom-icons"><img src="./assets/icon-twitter.svg" alt=""></div>
-              <p id="twitter"></p>
-            </div>
-            <div class="profile-info">
-              <div class="bottom-icons"><img src="./assets/icon-company.svg" alt=""></div>
-              <p id="company"></p>
+            <div class="profile-bottom-wrapper">
+              <div class="profile-info">
+                <div class="bottom-icons"><img src="./assets/icon-location.svg" alt=""></div>
+                <p id="location"></p>
+              </div>
+              <div class="profile-info">
+                <div class="bottom-icons"><img src="./assets/icon-website.svg" alt=""></div>
+                <p id="page"></p>
+              </div>
+              <div class="profile-info">
+                <div class="bottom-icons"><img src="./assets/icon-twitter.svg" alt=""></div>
+                <p id="twitter"></p>
+              </div>
+              <div class="profile-info">
+                <div class="bottom-icons"><img src="./assets/icon-company.svg" alt=""></div>
+                <p id="company"></p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
