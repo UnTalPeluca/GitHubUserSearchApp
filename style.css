@@ -57,6 +57,10 @@ body {
 #btn-mode:hover {
   cursor: pointer;
 }
+.icon-container {
+  display:flex;
+  align-items: center;
+}
 .searchbar-container {
   position: relative;
   background-color: var(--lm-bg-content);
